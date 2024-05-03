@@ -1,4 +1,4 @@
-# Comp1004Repo
+# Chat System using HTML, CSS & JavaScript
 ---
-## Comp1004 Repo for Introduction
+## Chat System for Comp1004
 * Josh Want
