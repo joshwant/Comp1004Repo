@@ -1,0 +1,162 @@
+/*
+    -CSS Code for Chat System-
+           -Josh Want-
+           -Comp1004-
+*/
+
+/*
+    Colour Codes:
+    Light Blue: #B4E4FF
+    Dark Blue: #0D53B5
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px auto;
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+input {
+    font-family: "Lato";
+}
+
+.hidden {
+    display: none;
+}
+
+#logout-button {
+    float: left;
+    margin-left: 15px;
+}
+
+button {
+    font-size: 13px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #eee;
+    width: 550px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+    float: left;
+    margin-left: 300px;
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background: #fff;
+    height: 350px;
+    width: 480px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+}
+
+#messagebar {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #0D53B5;
+    margin-left: 0px;
+}
+
+#submit-msg {
+    background: #0D53B5;
+    border: 2px solid #0D53B5;
+    color: white;
+    padding: 4px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#submit-msg:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#menu {
+    padding: 15px 25px;
+    display: flex;
+}
+
+#menu img{
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+}
+
+#clear-chat {
+    float: right;
+    margin-left: 355px;
+    align-self: flex-start;
+}
+
+.chat-names{
+    font-size: 12px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.received {
+    align-items: flex-start;
+}
+
+.sent {
+    align-items: flex-end;
+}
+.text-bubble {
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.bubble-out {
+    background-color: #0D53B5;
+    color: #fff;
+}
+
+.bubble-in {
+    background-color: #B4E4FF;
+}
+
+.loggedin-text {
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+}
+.loggedin-username {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+h6 {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}

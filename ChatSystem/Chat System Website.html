@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chat System</title>
+        <meta name="description" content="Chat System" />
+        <link rel="stylesheet" href="ChatSystemCSS.css" />
+    </head>
+    <body>
+	<button id="logout-button">Log out</button>
+    	<p class="loggedin-text">Logged in as: </p>
+    	<p class="loggedin-username" id="loggedin-username"></p>
+        <div id="wrapper">
+            <div id="menu">
+			<img src="images/profilepicture.png"/>
+    			<p class="username" id="username"></p>
+			<button id="clear-chat">Clear Chat</button>
+            </div>
+            <div id="chatbox" class="hidden">
+            </div>
+            <form name="message" action="">
+                <input name="messagebar" type="text" id="messagebar" placeholder="  Message..."/>
+                <input name="submit-msg" type="submit" id="submit-msg" value="Send" />
+            </form>
+		    <form id="login-form">
+                <h2>Login</h2>
+                <input type="text" placeholder="Username" id="username-input" />
+                <input type="password" placeholder="Password" id="password-input" />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+	  	<h6>Chat System with Login made by Josh Want</h>
+        <script src="ChatJS.js"></script>
+    </body>
+</html>
